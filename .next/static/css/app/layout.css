@@ -807,11 +807,11 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
-.mt-auto {
-  margin-top: auto;
-}
 .mt-\[20px\] {
   margin-top: 20px;
+}
+.mt-auto {
+  margin-top: auto;
 }
 .block {
   display: block;
@@ -1408,6 +1408,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(7 26 46 / var(--tw-bg-opacity, 1));
 }
+.bg-\[\#30f0c0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 240 192 / var(--tw-bg-opacity, 1));
+}
 .bg-\[\#f2fffc\] {
   --tw-bg-opacity: 1;
   background-color: rgb(242 255 252 / var(--tw-bg-opacity, 1));
@@ -1446,6 +1450,10 @@ video {
 .bg-foreground {
   background-color: hsl(var(--foreground));
 }
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+}
 .bg-muted {
   background-color: hsl(var(--muted));
 }
@@ -1467,14 +1475,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-.bg-\[\#30f0c0\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(48 240 192 / var(--tw-bg-opacity, 1));
-}
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
